@@ -1,0 +1,21 @@
+.react-data-table {
+	text-transform: capitalize;
+
+	table {
+		display: table;
+		border-collapse: collapse;
+		text-align: center;
+		width: 100%;
+		margin: auto;
+		line-height: 30px;
+	}
+
+	.header-row {
+		font-weight: bold;
+	 	border-bottom: 1px solid black;
+	}
+
+	.special-row {
+		border-top: 1px solid black;
+	}
+}

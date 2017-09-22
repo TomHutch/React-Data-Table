@@ -1,0 +1,47 @@
+{
+  "name": "react-data-table",
+  "version": "1.0.0",
+  "description": "Flexible and un-opinionated data table React component",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --compilers js:babel-register 'src/**/*.test.*'",
+    "example": "./node_modules/.bin/webpack -d"
+  },
+  "author": "Tom Hutchinson",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-loader": "^7.1.2",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx-img-import": "^0.1.4",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "enzyme": "^2.9.1",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "jsdom": "^11.2.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^3.5.3",
+    "react-test-renderer": "^15.6.1",
+    "sinon": "^3.3.0"
+  }
+}
